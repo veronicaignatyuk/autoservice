@@ -1,0 +1,53 @@
+#add_car {
+	margin-top: 100px;
+	font-family: Verdana;
+	color: #fff;
+	text-align: right;
+	font-size: 1.3em;
+}
+
+#add_car tr td {
+	padding: 10px 20px;
+}
+
+select {
+	font-family: Verdana;
+	font-size: 0.8em;
+	border: none;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	cursor: pointer;
+	height: 30px;
+	width: 150px;
+}
+
+input:focus, select:focus, #input_submit:focus {
+	outline: none;
+}
+
+input {
+	font-family: Verdana;
+	font-size: 0.8em;
+	border: none;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	height: 30px;
+	width: 150px;
+	padding: 0 10px;
+}
+
+#input_submit {
+	width: 100px;
+	height: 35px;
+	border: none;
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	cursor: pointer;
+	font-size: 0.8em;
+	margin-top: 50px;
+}
+
+#input_submit:hover {
+	background: rgba(0, 0, 0, .8);
+	color: #FFDEAD;
+}

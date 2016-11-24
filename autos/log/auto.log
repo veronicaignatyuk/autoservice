@@ -1,0 +1,664 @@
+DEBUG 08:28:58 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Creating new User [id=null, login=Lena@lena, password=daab5dc73f4796dad48c431ed64b067b4cc31344]
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - User [id=null, login=Lena@lena, password=daab5dc73f4796dad48c431ed64b067b4cc31344] was created
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Get object by key:14
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Get object by key:2
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Creating new UserRole [id=null, user=User [id=14, login=Lena@lena, password=daab5dc73f4796dad48c431ed64b067b4cc31344], role=Role [id=2, role=moderator]]
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - UserRole [id=null, user=User [id=14, login=Lena@lena, password=daab5dc73f4796dad48c431ed64b067b4cc31344], role=Role [id=2, role=moderator]] was created
+INFO  08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:28:59 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Get object by key:2
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:27 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:29:35 [http-nio-8080-exec-10] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  08:29:35 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 08:29:35 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:29:35 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:35 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:29:35 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:29:36 [http-nio-8080-exec-10] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:53:14 [http-nio-8080-exec-8] main.java.bntu.commandImpl.SignIn - Checking valid input
+DEBUG 08:53:14 [http-nio-8080-exec-8] main.java.bntu.commandImpl.SignIn - Input not valid. Empty form.
+DEBUG 08:53:39 [http-nio-8080-exec-9] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  08:53:39 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+INFO  08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:53:41 [http-nio-8080-exec-9] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:54:09 [http-nio-8080-exec-1] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  08:54:09 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 08:54:09 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:54:09 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:54:09 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:54:09 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: null
+DEBUG 08:56:14 [http-nio-8080-exec-2] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  08:56:14 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 08:56:14 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:56:14 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:56:14 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:56:14 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: null
+DEBUG 08:56:37 [http-nio-8080-exec-9] main.java.bntu.commandImpl.SignIn - Checking valid input
+DEBUG 08:56:37 [http-nio-8080-exec-9] main.java.bntu.commandImpl.SignIn - Input not valid. Empty form.
+DEBUG 08:57:03 [http-nio-8080-exec-5] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  08:57:03 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+INFO  08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:57:04 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:05 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:05 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:57:05 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:57:05 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:05 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:05 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:05 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:05 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:05 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Creating new User [id=null, login=h@j, password=5c2dd944dde9e08881bef0894fe7b22a5c9c4b06]
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - User [id=null, login=h@j, password=5c2dd944dde9e08881bef0894fe7b22a5c9c4b06] was created
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Get object by key:15
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Get object by key:2
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Creating new UserRole [id=null, user=User [id=15, login=h@j, password=5c2dd944dde9e08881bef0894fe7b22a5c9c4b06], role=Role [id=2, role=moderator]]
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - UserRole [id=null, user=User [id=15, login=h@j, password=5c2dd944dde9e08881bef0894fe7b22a5c9c4b06], role=Role [id=2, role=moderator]] was created
+INFO  08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:35 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Get object by key:2
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting result set
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:57:53 [http-nio-8080-exec-12] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 08:58:03 [http-nio-8080-exec-13] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 09:11:51 [http-nio-8080-exec-15] main.java.bntu.commandImpl.SignIn - Checking valid input
+DEBUG 09:11:51 [http-nio-8080-exec-15] main.java.bntu.commandImpl.SignIn - Input not valid. Empty form.
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+INFO  09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:19:07 [http-nio-8080-exec-11] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+INFO  09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:22:50 [http-nio-8080-exec-16] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+INFO  09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:24:18 [http-nio-8080-exec-17] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: viktoria@r
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=13, login=viktoria@r, password=4dc7c9ec434ed06502767136789763ec11d2c4b7]
+INFO  09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:25:07 [http-nio-8080-exec-20] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: e2@e
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=9, login=e2@e, password=58e6b3a414a1e090dfc6029add0f3555ccba127f]
+INFO  09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 09:26:20 [http-nio-8080-exec-15] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:09:48 [http-nio-8080-exec-1] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  21:09:48 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+INFO  21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:09:54 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:10:38 [http-nio-8080-exec-7] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  21:10:38 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 21:10:38 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:10:38 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:38 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:10:38 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+DEBUG 21:10:40 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:40 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+ERROR 21:10:40 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Cannot update
+DEBUG 21:10:40 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:40 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:10:40 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:10:41 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:10:41 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:41 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:10:41 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:10:42 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:10:42 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:42 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:10:42 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:10:42 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:42 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+ERROR 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Cannot update
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:10:53 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:11:01 [http-nio-8080-exec-5] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  21:11:01 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 21:11:01 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:11:01 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:11:01 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:11:01 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:11:02 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:15:14 [http-nio-8080-exec-8] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  21:15:14 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: viktoria@r
+DEBUG 21:15:14 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:15:14 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:15:14 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:15:14 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=13, login=viktoria@r, password=4dc7c9ec434ed06502767136789763ec11d2c4b7]
+INFO  21:15:14 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 21:15:15 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:15:15 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:15:15 [http-nio-8080-exec-8] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 21:18:30 [http-nio-8080-exec-3] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  21:18:30 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: viktoria@r
+DEBUG 21:18:30 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 21:18:30 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 21:18:30 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  21:18:30 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: null
+DEBUG 22:16:38 [http-nio-8080-exec-1] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  22:16:38 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 22:16:44 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:16:44 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:16:44 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:16:44 [http-nio-8080-exec-1] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: null
+DEBUG 22:16:55 [http-nio-8080-exec-2] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  22:16:55 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 22:16:55 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:16:55 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:16:55 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:16:55 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+INFO  22:16:55 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:16:56 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:17:08 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 22:17:08 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:17:08 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:08 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:17:08 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+DEBUG 22:17:08 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Creating new Car [id=null, user=User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997], brand=null, model=null]
+ERROR 22:17:08 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Cannot create Car [id=null, user=User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997], brand=null, model=null]
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'brand' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at main.java.bntu.dao.abstr.AbstractJDBCDao.create(AbstractJDBCDao.java:54)
+	at main.java.bntu.serviceImpl.UserServiceImpl.newCar(UserServiceImpl.java:206)
+	at main.java.bntu.commandImpl.AddCar.execute(AddCar.java:29)
+	at main.java.bntu.controller.Controller.processRequest(Controller.java:63)
+	at main.java.bntu.controller.Controller.doPost(Controller.java:42)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 22:17:08 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:08 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:17:14 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: admin@a
+DEBUG 22:17:14 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:17:14 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:14 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:17:14 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997]
+DEBUG 22:17:14 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Creating new Car [id=null, user=User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997], brand=null, model=null]
+ERROR 22:17:14 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Cannot create Car [id=null, user=User [id=1, login=admin@a, password=d033e22ae348aeb5660fc2140aec35850c4da997], brand=null, model=null]
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'brand' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at main.java.bntu.dao.abstr.AbstractJDBCDao.create(AbstractJDBCDao.java:54)
+	at main.java.bntu.serviceImpl.UserServiceImpl.newCar(UserServiceImpl.java:206)
+	at main.java.bntu.commandImpl.AddCar.execute(AddCar.java:29)
+	at main.java.bntu.controller.Controller.processRequest(Controller.java:63)
+	at main.java.bntu.controller.Controller.doPost(Controller.java:42)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 22:17:14 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:14 [http-nio-8080-exec-7] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 22:17:43 [http-nio-8080-exec-2] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  22:17:43 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: panda@p
+DEBUG 22:17:43 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:17:43 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:43 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:17:43 [http-nio-8080-exec-2] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: null
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.commandImpl.SignIn - Checking valid input
+INFO  22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: panda@p
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=2, login=panda@p, password=f91a8ee646a277a2f1359709604b99c1b32d9f24]
+INFO  22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:17:55 [http-nio-8080-exec-3] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:18:02 [http-nio-8080-exec-6] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: panda@p
+DEBUG 22:18:02 [http-nio-8080-exec-6] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:18:02 [http-nio-8080-exec-6] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:18:02 [http-nio-8080-exec-6] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:18:02 [http-nio-8080-exec-6] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=2, login=panda@p, password=f91a8ee646a277a2f1359709604b99c1b32d9f24]
+DEBUG 22:18:02 [http-nio-8080-exec-6] main.java.bntu.dao.abstr.AbstractJDBCDao - Creating new Car [id=null, user=User [id=2, login=panda@p, password=f91a8ee646a277a2f1359709604b99c1b32d9f24], brand=null, model=null]
+ERROR 22:18:02 [http-nio-8080-exec-6] main.java.bntu.dao.abstr.AbstractJDBCDao - Cannot create Car [id=null, user=User [id=2, login=panda@p, password=f91a8ee646a277a2f1359709604b99c1b32d9f24], brand=null, model=null]
+com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'brand' cannot be null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1040)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2458)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2375)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2359)
+	at main.java.bntu.dao.abstr.AbstractJDBCDao.create(AbstractJDBCDao.java:54)
+	at main.java.bntu.serviceImpl.UserServiceImpl.newCar(UserServiceImpl.java:206)
+	at main.java.bntu.commandImpl.AddCar.execute(AddCar.java:29)
+	at main.java.bntu.controller.Controller.processRequest(Controller.java:63)
+	at main.java.bntu.controller.Controller.doPost(Controller.java:42)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:291)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:239)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:518)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1096)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:674)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1500)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1456)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 22:18:02 [http-nio-8080-exec-6] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:18:02 [http-nio-8080-exec-6] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting User with email: panda@p
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Returning User: User [id=2, login=panda@p, password=f91a8ee646a277a2f1359709604b99c1b32d9f24]
+INFO  22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+INFO  22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Getting user roles
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - ResultSet closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Statement closed
+DEBUG 22:18:06 [http-nio-8080-exec-5] main.java.bntu.dao.abstr.AbstractJDBCDao - Connection closed

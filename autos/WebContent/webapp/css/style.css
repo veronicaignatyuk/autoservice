@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	background: #FFFDD0;
+}
+
+.active {
+	background: #2c2c2c;
+}
+
+#header {
+	background: #2c2c2c;
+	width: auto;
+	height: 200px;
+	margin: 20px 50px;
+	border: solid 1px #b53030;
+}
+
+#nav {
+	width: auto;
+	background: rgba(115, 115, 115, .2);
+	height: 50px;
+	margin-top: 150px;
+}
+
+#nav ul {
+	margin-left: 60px;
+}
+
+#nav li {
+	float: left;
+	list-style: none;
+	margin-top: 6px;
+}
+
+#nav li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 16px 20px;
+	font-size: 150%;
+	font-family: Verdana;
+}
+
+#nav li :hover {
+	color: #FFFDD0;
+	background: #2c2c2c;
+}
+
+#wrapper {
+	background: rgba(44, 44, 44, .8);
+	width: 70%;
+	height: 1200px;
+	margin: 20px 0 0 50px;
+	border: solid 1px rgba(44, 44, 44, .8);
+}
+
+#add ul {
+	margin-left: 60px;
+	float: left;
+	list-style: none;
+}
+
+#add li {
+	float: left;
+	list-style: none;
+}
+
+#add li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0px 20px;
+}
+
+#text a {
+	font-size: 120%;
+	font-family: Georgia;
+}
+
+#button-add {
+	float: left;
+	list-style: none;
+	margin: 6px 0 0 4px;
+}
+
+#button-add   a {
+	font-size: 180%;
+	font-family: Georgia;
+	width: 50px;
+	background: rgba(255, 253, 208, .7);
+	height: 50px;
+}
+
+#button-add  :hover {
+	color: #FFFDD0;
+	background: rgba(44, 44, 44, .0);
+	font-size: 200%;
+	font-family: Verdana;
+}
+
+#thanks {
+	background: rgba(44, 44, 44, .7);
+	width: 40%;
+	height: 15%;
+	margin: 10% 0 0 30%;
+	border: solid 1px rgba(44, 44, 44, .7);
+}
+
+#thanks a {
+	color: #fff;
+	text-decoration: none;
+	padding-left: 20%;
+	font-size: 200%;
+	font-family: Georgia;
+	list-style: none;
+}
+
+#thanks ul {
+	margin-left: 30%;
+	float: left;
+	list-style: none;
+}
+
+#thanks li {
+	float: left;
+	list-style: none;
+}
+
+#thanks li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+#tab1 {
+	border: 1px solid black;
+	margin: 30px 0 0 30px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 200%;
+	font-family: Georgia;
+	list-style: none;
+}
+
+#tab1  tr td {
+	border: 1px solid black;
+}
+
+#tab1 tr th {
+	border: 1px solid black;
+}
+
+#profile {
+	float: right;
+	margin-right: 1%;
+}
+
+#profile img {
+	margin-top: 4px;
+	border-radius: 100px;
+}
+
+#nickname {
+	float: right;
+	list-style: none;
+	margin-top: 6px;
+}
+
+#nickname a {
+	color: #fff;
+	text-decoration: none;
+	padding: 16px 20px;
+	font-size: 150%;
+	font-family: Verdana;
+}
+
+#nickname :hover {
+	color: #FFFDD0;
+	background: #2c2c2c;
+}
+
+#wrapper1 {
+	background: rgba(44, 44, 44, .8);
+	width: 20%;
+	height: 1200px;
+	margin: -84.5% 0 0 76.2%;
+}
+
+#footer {
+	background: #2c2c2c;
+	width: auto;
+	height: 200px;
+	margin: 20px 50px;
+	border: solid 1px #b53030;
+}
